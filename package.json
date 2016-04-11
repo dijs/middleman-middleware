@@ -1,0 +1,14 @@
+{
+  "name": "middleman-middleware",
+  "version": "0.0.1",
+  "description": "This middleware will create a mirror of a given URL response and inject given CSS and JS into the response.",
+  "main": "index.js",
+  "author": "Richard van der Dys",
+  "license": "MIT",
+  "dependencies": {
+    "html-prefixer": "^0.2.0",
+    "request": "^2.55.0",
+    "through": "^2.3.7",
+    "trumpet": "^1.7.1"
+  }
+}
