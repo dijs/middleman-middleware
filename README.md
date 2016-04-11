@@ -1,14 +1,20 @@
+[![NPM Version](https://img.shields.io/npm/v/middleman-middleware.svg)](https://www.npmjs.com/package/middleman-middleware)
+
 # Middleman Middleware
 
 This middleware will create a mirror of a given URL response and inject given CSS and JS into the response.
 
 *This can be used with express or any other accepting HTTP server*
 
+### Installation
+
+`npm install middleman-middleware`
+
 ### Example Usage with Express:
 
 ```js
 var express = require('express');
-var middlemanMiddleware = require('../../projects/middleman-middleware');
+var middlemanMiddleware = require('middleman-middleware');
 
 var app = express();
 
